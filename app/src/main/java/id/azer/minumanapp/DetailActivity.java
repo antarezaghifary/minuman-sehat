@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.telecom.Call;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -59,5 +61,13 @@ public class DetailActivity extends AppCompatActivity {
             singkat.setText(getIntent().getStringExtra("singkat"));
             deskripsi.setText(getIntent().getStringExtra("deskripsi"));
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        DetailActivity.this.finish();
+        startActivity(i);
     }
 }
