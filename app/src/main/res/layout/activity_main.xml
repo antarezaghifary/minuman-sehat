@@ -348,6 +348,7 @@
                 android:layout_height="match_parent"
                 tools:ignore="UselessLeaf" />
             <LinearLayout
+                android:id="@+id/relax"
                 android:clickable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_weight="1"
