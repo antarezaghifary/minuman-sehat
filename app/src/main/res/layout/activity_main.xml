@@ -94,7 +94,6 @@
                 </LinearLayout>
                 <TextView
                     android:layout_marginTop="10dp"
-                    android:textStyle="bold"
                     android:textColor="#9F9F9F"
                     android:layout_weight="1"
                     android:text="Jahe"
@@ -137,7 +136,6 @@
                 </LinearLayout>
                 <TextView
                     android:layout_marginTop="10dp"
-                    android:textStyle="bold"
                     android:textColor="#9F9F9F"
                     android:layout_weight="1"
                     android:text="Madu"
@@ -178,7 +176,6 @@
                 </LinearLayout>
                 <TextView
                     android:layout_marginTop="10dp"
-                    android:textStyle="bold"
                     android:textColor="#9F9F9F"
                     android:layout_weight="1"
                     android:text="Teh Hijau"
@@ -219,7 +216,6 @@
                 </LinearLayout>
                 <TextView
                     android:layout_marginTop="10dp"
-                    android:textStyle="bold"
                     android:textColor="#9F9F9F"
                     android:layout_weight="1"
                     android:text="Lemon"
@@ -289,7 +285,7 @@
                     <ImageView
                         android:scaleType="fitCenter"
                         android:layout_margin="20dp"
-                        android:src="@drawable/jahe"
+                        android:src="@drawable/minum2d"
                         android:layout_width="match_parent"
                         android:layout_height="140dp"
                         tools:ignore="ContentDescription" />
@@ -372,7 +368,7 @@
                     <ImageView
                         android:scaleType="fitCenter"
                         android:layout_margin="20dp"
-                        android:src="@drawable/jahe"
+                        android:src="@drawable/minum1d"
                         android:layout_width="match_parent"
                         android:layout_height="140dp"
                         tools:ignore="ContentDescription" />
